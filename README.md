@@ -11,6 +11,7 @@ Additionally, the __Category Tool__ gives you the option to display __Enable/Dis
 __NOTES:__ 
 * You need to have a layer named Category in your project, otherwise the __Category Tool__ won't work. If you don't have a layer named Category in your project, create it, and then you can use the __Category Tool__.
 * The Enable/Disable and Delete options don't effect multi-selected objects. So if you want to Enable/Disable or Delete a particular gameobject, you have to click the Enable/Disable or Delete option beside that gameobject in the __Hierarchy__.
+* You can change the **Selected Color** and **Not Selected Color** of the **Categories**. But you'll notice that you're unable to change the **Alpha** values of these colors. The reason is that these **Categories** are being drawn on top of whatever is already there in the **Hierarchy**. So we can't allow transparency, otherwise the text behind will be visible.
 
 ### Instructions
 * Place this script in the __Editor__ folder in your project.
