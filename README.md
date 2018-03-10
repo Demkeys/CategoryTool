@@ -12,6 +12,7 @@ __NOTE:__ You need to have a layer named Category in your project, otherwise the
 
 ### Instructions
 * Place this script in the __Editor__ folder in your project.
+* Create a layer named Category in your project.
 * Click __Create > Create Other > Category__ to create a new __Category__.
 
 ### Known Bugs:
