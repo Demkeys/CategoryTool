@@ -9,7 +9,10 @@ using System;
 [InitializeOnLoad]
 class CategoryTool 
 {
-	static string SaveDataKeyName = "CategoryToolDataKey";
+	// SaveDataKeyName is the project name along with " CategoryToolDataKey". This make sure
+	// there are individual keys for each project that uses this tool.
+	static string SaveDataKeyName = Application.productName + " CategoryToolDataKey"; 
+	
 	static string CategoryLayer = "Category";
 	static bool CategoryLayerFound = false;
 	static bool ShowAciveInactiveOption = false;
