@@ -8,7 +8,9 @@ This tool gives you the option to create __Category__ gameobjects. __Category__ 
 You can control the appearence of the __Category__ gameobjects from __Edit > Preferences > Category Tool__.
 Additionally, the __Category Tool__ gives you the option to display __Enable/Disable__ and __Delete__ options right in the __Hierarchy__. Those options can be enabled or disabled from __Edit > Preferences > Category Tool__.
 
-__NOTE:__ You need to have a layer named Category in your project, otherwise the __Category Tool__ won't work. If you don't have a layer named Category in your project, create it, and then you can use the __Category Tool__.
+__NOTES:__ 
+* You need to have a layer named Category in your project, otherwise the __Category Tool__ won't work. If you don't have a layer named Category in your project, create it, and then you can use the __Category Tool__.
+* The Enable/Disable and Delete options don't effect multi-selected objects. So if you want to Enable/Disable or Delete a particular gameobject, you have to click the Enable/Disable or Delete option beside that gameobject in the __Hierarchy__.
 
 ### Instructions
 * Place this script in the __Editor__ folder in your project.
