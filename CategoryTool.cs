@@ -149,7 +149,7 @@ class CategoryTool
 	}
 
 	// GUI code for the Category Tool section in the Preferences window.
-	[PreferenceItem("Category Tool")]
+	[SettingsProvider]
 	static void PreferenceGUI()
 	{
 		GUIStyle OptionLabelGUIStyle = new GUIStyle();
